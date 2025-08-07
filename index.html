@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kelly Rudadiso Tsikwa | Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!--navigation-->
+  <header>
+    <nav>
+      <h2 class ="logo">👩🏽‍💻</h2>
+      <ul class="nav-links">
+        <li><button data-section="home">Home</button></li>
+        <li><button data-section="about">About</button></li>
+        <li><button data-section="projects">Projects</button></li>
+        <li><button data-section="contact">Contact</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!--container for sliding Sections -->
+  <main class="main-container">
+
+    <!-- Home Section  -->
+    <section id="home" class="section active">
+      <div class="home-content">
+        <div class="text">
+          <h1><b> WELCOME TO MY PERSONAL PORTFOLIO </b></h1>   
+            <h3>Hi, my name is </h3>
+            <h1 id="typing-title"> </h1>
+            <h3> l specialize in building responsive websites and applications using modern web technologies. My goal is to create efficient and user-friendly solutions</h3>
+             <br>
+             <h1> Lets Explore What l Can Do </h1>
+
+        </div>
+        <img src="kelly.PNG" alt="Kelly Tsikwa" class="profile-pic">
+      </div>
+    </section>
+
+    <!-- About Section  -->
+    <section id="about" class="section">
+      <div class="about-content">
+        <img src="kelly.PNG" alt="Kelly Tsikwa" class="profile-pic">
+        <div class="text">
+          <h2>Who Am I?</h2>
+          <p>
+            I'm a software engineering student with a deep love for solving problems through code.</br>
+            My journey began with curiosity and has grown into a mission to build tools that make life easier.
+              </p>
+              <br><br>
+
+              <p><h2> Skills</h2>
+                <li> Frontend: HTML, CSS, JavaScript</li>
+                <li> Backend: C#, Python, Java
+                <li> Tools: GitHub, VS Code </li>
+                <li> Soft Skills: Teamwork, Adaptability, Communication</li>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section-->
+    <section id="projects" class="section">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-container">
+        <div class="project-card">
+          <h3>Scientific Calculator</h3>
+          <p> This is a browser based calculator built using HTML, CSS, and JavaScript. It allows users to perform basic and scientific calculations with responsive buttons and real time results. The layout is styled with a soft pink theme, rounded buttons and dark mode toggle. Users can input functions like sin, cos or ^ and manually add brackets to complete expressions. All calculations happen in the browser, making it a fully frontend project. It includes a back button to review previous inputs and smooth animation effects improve the users interaction.
+          </p>
+          <a href="https://k-elly-tsiks.github.io/Scientific-Calculator/" class="btn">Live Demo</a>
+          <a href="https://github.com/k-elly-Tsiks/Scientific-Calculator.git" class="btn">GitHub</a>
+        </div>
+        <div class="project-card">
+          <h3>To-Do List</h3>
+          <p>The To-Do List is a task management tool created using HTML, CSS and JavaScript. Users can add, edit or delete tasks easily with clickable icons. When a task is marked as done, it's struck through and a progress bar updates to show completion percentage. The design uses soft pink and white colors with a clean layout. Time and date are displayed for each task. All data is stored in memory. This To-Do List is a frontend project that is perfect for organizing daily routines efficiently since it improves productivity  by keeping everything clear.
+          </p>
+          <a href="https://k-elly-tsiks.github.io/To-Do-List/" class="btn">Live Demo</a>
+          <a href="https://github.com/k-elly-Tsiks/To-Do-List.git" class="btn">GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <!--Contact section  -->
+    <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <p>Let’s connect!</p>
+    <form action="https://api.web3forms.com/submit" method="POST">
+    <input type="hidden" name="access_key" value="21ef7dc2-2d34-416b-b2f3-b836d91ef902">
+    <input type="text" name="name" placeholder="Your Name" required/>
+    <input type="email" name="email" placeholder="Your Email" required/>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    <button type="submit" class="btn">Send Message</button>
+  </form>
+    </section>
+
+  </main>
+
+  <!-- footer  -->
+  <footer>
+    <p>&copy; 2025 Kelly Rudadiso Tsikwa. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html> 
+
+
